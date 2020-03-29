@@ -1,0 +1,231 @@
+actions:
+- utter_BE1cr
+- utter_BE2cr
+- utter_BEtop
+- utter_CSIhead
+- utter_CanteenFac
+- utter_CntLib
+- utter_DeptLibrary
+- utter_EBCdoc
+- utter_EBCname
+- utter_FacCount
+- utter_HeadPlace
+- utter_HighPack
+- utter_HostelFac
+- utter_ParkCharge
+- utter_SE1cr
+- utter_SE2cr
+- utter_StudCooPlace
+- utter_TopCompy
+- utter_admindoc
+- utter_bkquantity
+- utter_bus
+- utter_canteen
+- utter_clgcontact
+- utter_clsBE1
+- utter_clsBE2
+- utter_clsSE1
+- utter_clsSE2
+- utter_clsTE1
+- utter_clsTE2
+- utter_compbkquantity
+- utter_compseats
+- utter_contact
+- utter_default
+- utter_dev
+- utter_did_that_help
+- utter_facilities
+- utter_fallback
+- utter_feadmission
+- utter_fecr
+- utter_fee
+- utter_goodbye
+- utter_greet
+- utter_hodname
+- utter_hostel
+- utter_iamabot
+- utter_jrquantity
+- utter_magquantity
+- utter_mechbkquantity
+- utter_mechseats
+- utter_parking
+- utter_priname
+- utter_registrar
+- utter_routes
+- utter_seadmission
+- utter_sinu
+- utter_sports
+- utter_wifi
+entities:
+- admin proc
+- admin_proc
+- dept
+- div
+- group
+- info
+- name
+- pack
+- proc
+- quantity
+- scholar
+- services
+- team
+intents:
+- placement
+- general
+- comp_dept
+- admin
+- cnt_lib
+- clg_info
+- goodbye
+- greet
+- affirm
+- deny
+- bot_challenge
+- deve
+- registrar
+responses:
+  utter_BE1cr:
+  - text: The CR of BE1 division is Prateek Kshirsagar.
+  utter_BE2cr:
+  - text: The CR of BE2 division is Pratiksha Chavan.
+  utter_BEtop:
+  - text: The BE topper of 2019 is not none but may be he is one of my developer
+  utter_CSIhead:
+  - text: The CSI president is Lalit Ahire.
+  utter_CanteenFac:
+  - text: Canteen facility is provided in the campus and also monthly and yearly pass
+      is available for students and faculty members.
+  utter_CntLib:
+  - text: Librarian & Head is Prof. Narayan Jundre. Email- library@indiraicem.ac.in
+      Phone No- 02114-661550 Cell No- 9763843306
+  utter_DeptLibrary:
+  - text: The Departmental library facility is available for each department.
+  utter_EBCdoc:
+  - text: The documents required for EBC is income certificate,admission fee reciept,
+      DTE allotment letter.
+  utter_EBCname:
+  - text: The EBC section is under Mr. Kiran Bhote.
+  utter_FacCount:
+  - text: The total no. of faculty members in Computer Department are 16.
+  utter_HeadPlace:
+  - text: ' Dean- Talent Management & Corporate Relations is Mr. Shashi Bhat. Mobile-
+      7875895160'
+  - text: Head of ICEM placement department is Honorable Shashi Bhat. The first person
+      who has that capability to stand for his students. All he do is always worth
+      for his students.  Meet him some time you will love that person.
+  utter_HighPack:
+  - text: The Highest Package offered is 12 lacs per annum by the company named Jaro
+      Education
+  utter_HostelFac:
+  - text: The campus provides hostel facilities with separate boys and girls hostel
+      and also provides various other facilities like canteen,gymnasium.
+  utter_ParkCharge:
+  - text: There are no parking charges applied for the college students and faculty
+      members.
+  utter_SE1cr:
+  - text: The CR of SE1 division is Rohit Ingawale.
+  utter_SE2cr:
+  - text: The CR of SE2 division is Vipin Nair.
+  utter_StudCooPlace:
+  - text: The Student Coordinator Head in Placement department is Atul Nair.
+  utter_TopCompy:
+  - text: The Top recruiters are LTI,Atos Syntel,Harbinger Group Software Private
+      Limited,Force Motors,Bridgestone India Pvt. Ltd.,Finolex Industries,Xoriant,NTT
+      data,etc
+  utter_admindoc:
+  - text: The documents required for admission process 1. JEE / CET / Qualifying Examination
+      Score Card 2. 10th Standard/CBSE/Equivalent Exam Mark sheet 3. 12th Standard/CBSE/Equivalent
+      Exam Mark sheet 4. Leaving Certificate/Transfer Certificate 5. Proof of Indian
+      Nationality / Domicile Certificate
+  utter_bkquantity:
+  - text: Total no of books in the library is 29,206.
+  utter_bus:
+  - text: The bus facility is provided by the college for many routes throught pune
+      and other remote areas.
+  utter_canteen:
+  - text: The canteen facility is provided by the college and is under the control
+      of administration department.
+  utter_clgcontact:
+  - text: You can contact the college by dailing the Telephone no. 02114 – 661500
+      / 666
+  utter_clsBE1:
+  - text: The class teacher of BE1 division is Prof. Sumit Dhotre.
+  utter_clsBE2:
+  - text: The class teacher of BE2 division is Prof. Shweta Taware.
+  utter_clsSE1:
+  - text: The class teacher of SE1 division is Prof. Sinu Nambiar.
+  utter_clsSE2:
+  - text: The class teacher of SE2 division is Prof. Tushar Pinjan.
+  utter_clsTE1:
+  - text: The class teacher of TE1 division is Prof. Sumit Harale.
+  utter_clsTE2:
+  - text: The class teacher of TE2 division is Prof. Pragati Choudhari.
+  utter_compbkquantity:
+  - text: The Computer department has books with total 618 titles with 2834 volumes.
+  utter_compseats:
+  - text: The total seats available for Computer Department is 120
+  utter_contact:
+  - text: You can contact the college by dailing the Telephone no. 02114 – 661500
+      / 666
+  utter_default:
+  - text: The question is not valid.
+  utter_dev:
+  - text: TARUN ARJUN SUNTI NIKHIL
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_facilities:
+  - text: Our College provides various facilities like Canteen, Library, Gymnasium
+      etc.
+  utter_fallback:
+  - text: Actually I don't have answer for this Sorry
+  utter_feadmission:
+  - text: 'The admission is done through the online CAP process and also the candidate
+      can take admission directly through the institute quota if the seats are available. '
+  utter_fecr:
+  - text: Sorry that is not updated.
+  utter_fee:
+  - text: The total fee for the Academic Year 2019-20 is 1,06,347/-
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_hodname:
+  - text: Computer Department HOD is Dr. Sunil Ingole.
+  utter_hostel:
+  - text: Hostel In charge is Mr. Shankar Langote. Contact- 9011975266,9028004490
+      E-Mail- shankar.langote@indiraicem.ac.in
+  utter_iamabot:
+  - text: I am a bot developed for ICEM, powered by Rasa.
+  utter_jrquantity:
+  - text: The library received 87 journals in specialized areas.
+  utter_magquantity:
+  - text: The library has 10 magazines in specialized areas.
+  utter_mechbkquantity:
+  - text: The Mechanical department has books with total 964 titles with 4077 volumes.
+  utter_mechseats:
+  - text: The total seats available for Mechanical Department is 120
+  utter_parking:
+  - text: Parking facility is provided by college with strict policies such as Helmet
+      is compulsory for the driver and no tripsies are allowed to enter the campus.
+  utter_priname:
+  - text: The name of principal is Dr. Sunil Ingole.
+  utter_registrar:
+  - text: 'Registrar of the college is '
+  utter_routes:
+  - text: The bus facility is operates through Katraj, Shivji Nagar, Sangvi, Mumbai-Pune
+      Highway, Rahatani routes.
+  utter_seadmission:
+  - text: Candidate must have completed Diploma Course in Engineering and Technology
+      with at least 45% marks (40% marks for Backward class categories students.
+  utter_sinu:
+  - text: Sinu Nambiar is the Professor of the computer department
+  - text: You can contact her in the college time
+  utter_sports:
+  - text: Sports Department is lead by Prof. Atul K. Gore who is the Director of Physical
+      Education and Sports in the campus.
+  utter_wifi:
+  - text: The campus is wifi enabled with seamless internet speed of upto 100Mbps.
+session_config:
+  carry_over_slots_to_new_session: false
+  session_expiration_time: 60.0
